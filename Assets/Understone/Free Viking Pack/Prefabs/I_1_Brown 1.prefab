@@ -1995,10 +1995,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5694261
-  m_Height: 3.208887
+  m_Radius: 1.9392036
+  m_Height: 3.8784072
   m_Direction: 1
-  m_Center: {x: -0.06942607, y: -0.019128097, z: 0}
+  m_Center: {x: 0.0604582, y: -0.019128097, z: 0}
 --- !u!54 &7361829902752596904
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2044,6 +2044,11 @@ MonoBehaviour:
   angulo: {x: 0, y: 0, z: 0, w: 0}
   grado: 0
   target: {fileID: 0}
+  walkSpeed: 0.3
+  runSpeed: 1
+  rotationSpeed: 150
+  vida: 2
+  particleEffect: {fileID: 7022268795503775816, guid: 7377f38a94f13bd43924090d4a77f29e, type: 3}
 --- !u!1 &8798737217672969723
 GameObject:
   m_ObjectHideFlags: 0
